@@ -1,0 +1,1 @@
+ALTER DATABASE [old_name] MODIFY NAME = [new_name];
