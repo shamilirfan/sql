@@ -4,6 +4,6 @@ create table students(
     Students_Name varchar(50) not null,
 	Gender varchar(8) not null,
     Institute varchar(60) not null,
-    City varchar(30)  null,
-    Scholarship_TK double not null
+    City varchar(30)  null  DEFAULT 'Unknown',
+    Scholarship_TK double check(Scholarship_TK >= 300)
 );

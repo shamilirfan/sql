@@ -1,5 +1,5 @@
--- 1. null
+-- 1. unique
 -- 2. not null
--- 3. unique
--- 4. primary key
--- 5. foreign key
+-- 3. default 
+-- 4. check
+-- 5. key

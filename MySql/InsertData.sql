@@ -13,5 +13,7 @@ values (1, 101, 'Alice', 'Male', 'Tamirul Millat Kamil Madrasah', 'Khulna', 600)
 (12, 112, 'Bijoy', 'Male', 'Mohammadia Adarsha Alim Madrasah', 'Gazipur', 300),
 (13, 113, 'Shagor', 'Male', 'Darunnazat Siddikia Dakhil Madrasah', 'Comilla', 300),
 (14, 114, 'Mehzabin', 'Female', 'Tamirul Millat Kamil Madrasah', 'Gazipur', 600),
-(15, 115, 'Nila', 'Female', 'Mohammadia Adarsha Alim Madrasah', 'Savar', 300);
-
+(15, 115, 'Nila', 'Female', 'Mohammadia Adarsha Alim Madrasah', 'Savar', 300),
+(16, 116, 'Jerin', 'Female', 'Tamirul Millat Kamil Madrasah', null, 600),
+(17, 117, 'Anika', 'Female', 'Darunnazat Siddikia Dakhil Madrasah', default, 300),
+(18, 118, 'Nova', 'Female', 'Mohammadia Adarsha Alim Madrasah', '', 600);
