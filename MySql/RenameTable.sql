@@ -1,0 +1,2 @@
+ALTER TABLE database_name.old_table_name
+RENAME TO database_name.new_table_name;
