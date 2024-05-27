@@ -1,4 +1,4 @@
-insert into students(ID, Roll, Students_Name, Gender, Institute, City, Scholarship_TK)
+insert into students(Students_id, Roll, Students_Name, Gender, Institute, City, Scholarship_TK)
 values (1, 101, 'Alice', 'Male', 'Tamirul Millat Kamil Madrasah', 'Khulna', 600),
 (2, 102, 'Nowshin', 'Female', 'Darunnazat Siddikia Dakhil Madrasah', 'Khulna', 300),
 (3, 103, 'Rupa', 'Male', 'Mohammadia Adarsha Alim Madrasah', 'Dhaka', 600),

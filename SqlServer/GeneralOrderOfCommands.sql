@@ -1,0 +1,6 @@
+-- 1. SELECT TOP number, columns
+-- 2. FROM table_name
+-- 3. WHERE condition
+-- 4. GROUP BY column
+-- 5. HAVING condition
+-- 6. ORDER BY column ASC/DESC
