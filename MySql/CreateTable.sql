@@ -1,9 +1,17 @@
-create table students(
-    Students_id int primary key,
-    Roll int not null,
-    Students_Name varchar(50) not null,
-	Gender varchar(8) not null,
-    Institute varchar(60) not null,
-    City varchar(30) DEFAULT 'Unknown',
-    Scholarship_TK double check(Scholarship_TK >= 300)
+-- table-1
+create table institute(
+    Institute_id int primary key,
+    Institute_name varchar(60) not null
+);
+
+-- table-2
+CREATE TABLE students (
+    Students_id INT PRIMARY KEY,
+    Roll INT NOT NULL,
+    Institute_id INT,
+    Students_Name VARCHAR(50) NOT NULL,
+    Gender VARCHAR(8) NOT NULL,
+    City VARCHAR(30) DEFAULT 'No Value Inserted',
+    Scholarship_TK DOUBLE CHECK (Scholarship_TK >= 300),
+    FOREIGN KEY (Institute_id) REFERENCES institute(Institute_id) ON UPDATE CASCADE ON DELETE CASCADE
 );

@@ -1,2 +1,2 @@
-ALTER TABLE testdb.students
-MODIFY COLUMN column_name datatype;
+ALTER TABLE table_name
+MODIFY COLUMN new_column_name new_datatype constraint;
