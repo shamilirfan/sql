@@ -27,7 +27,7 @@ VALUES (1, 'Alice', 'Male', 'Khulna'),
     (4, 'Bob', 'Male', 'Gazipur'),
     (5, 'Himal', 'Male', 'Savar'),
     (6, 'Nova', 'Female', 'Dhaka'),
-    (7, 'Nila', 'Female', 'Savar');
+    (7, 'Nila', 'Female', 'Savar'),
     (8, 'Shanto', 'Male', 'Gazipur'),
     (9, 'Topu', 'Male', 'Savar'),
     (10, 'Anika', 'Female', 'Khulna'),
