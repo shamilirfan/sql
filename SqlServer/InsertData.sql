@@ -23,7 +23,7 @@ VALUES (1, 'Smartwatch', 'Apple', 'Black', 3, 199),
 INSERT INTO customars(Customar_ID, Customar_Name, Gender, City)
 VALUES (1, 'Alice', 'Male', 'Khulna'),
     (2, 'Nowshin', 'Female', 'Khulna'),
-    (3, 'Rupa', 'Male', 'Dhaka'),
+    (3, 'Rupa', 'Female', 'Dhaka'),
     (4, 'Bob', 'Male', 'Gazipur'),
     (5, 'Himal', 'Male', 'Savar'),
     (6, 'Nova', 'Female', 'Dhaka'),
