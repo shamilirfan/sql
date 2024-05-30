@@ -1,5 +1,5 @@
-SELECT * FROM students
-WHERE students_id > ANY (
-SELECT students_id FROM students
-WHERE students_id IN(14, 17)
+SELECT * FROM tamble1
+WHERE condition > ANY (
+SELECT condition FROM tamble1
+WHERE condition IN(14, 17)
 );
